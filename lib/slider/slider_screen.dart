@@ -394,7 +394,7 @@ class _SliderScreenState extends State<SliderScreen> {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Product()), // Use the Product class here
+                  MaterialPageRoute(builder: (context) => ProductScreen(product:product)), // Use the Product class here
                 );
               },
               child: Image.asset("assets/egg.jpg", fit: BoxFit.cover),
