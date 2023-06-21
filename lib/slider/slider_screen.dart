@@ -312,6 +312,13 @@ class _SliderScreenState extends State<SliderScreen> {
   final CarouselController carouselController = CarouselController();
   int currentIndex = 0;
 
+  Product product = Product(
+    id:1,
+    name:"[조인] 동물복지 백색 유정 반숙란 20구",
+    price:13800,
+    image:""assets/egg.jpg",
+  );
+
   @override
   Widget build(BuildContext context) {
 
